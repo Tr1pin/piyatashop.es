@@ -1,0 +1,45 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Productos",
+      "url": "/productos"
+    },
+    {
+      "name": "Sbore nosotros",
+      "url": "/about"
+    },
+    {
+      "name": "Contacto",
+      "url": "/Contacto"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "Sobre nosotros",
+      "url": "/about"
+    },
+    {
+      "name": "Productos",
+      "url": "/Productos"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contacto"
+    }
+  ],
+  "footerCopyright": [
+    {
+      "name": "Privacy & Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "Terms of Service",
+      "url": "/terms-services"
+    }
+  ]
+}
