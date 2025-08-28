@@ -1,16 +1,14 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/logo.webp" />
-		<link rel="stylesheet" href="/src/styles/global.css" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Piyatashop</title>
-	</head>
-	<body class="m-0 w-full h-full font-mono bg-gradient-to-r from-white-200 to-gray-100 text-2xl">
-  		<slot />
-	</body>
-
-
+<html lang="en" class="w-full min-w-full h-full flex flex-col justify-end items-center">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/logo.webp" />
+        <link rel="stylesheet" href="/src/styles/global.css" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Piyatashop</title>
+    </head>
+    <body class="m-0 w-full h-full font-extralight bg-[#ffe9c7] text-2xl">
+          <slot />
+    </body>
 </html>
