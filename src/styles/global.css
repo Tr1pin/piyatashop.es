@@ -4,7 +4,7 @@
 
 @layer utilities {
   .animate-slide-in-bottom-shirt {
-    animation: slide-in-bottom-shirt 4s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation: slide-in-bottom-shirt 3s cubic-bezier(0.25, 1, 0.5, 1) both;
   }
   @keyframes slide-in-bottom-shirt {
     0% {
@@ -17,22 +17,9 @@
     }
   }
 
-  .animate-slide-in-bottom-mug {
-    animation: slide-in-bottom-mug 4s cubic-bezier(0.25, 1, 0.5, 1) both;
-  }
-  @keyframes slide-in-bottom-mug {
-    0% {
-      transform: translateY(130px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
   .animate-slide-in-bottom-bag {
     animation: slide-in-bottom-bag 4s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 0.8s;
   }
   @keyframes slide-in-bottom-bag {
     0% {
@@ -45,8 +32,24 @@
     }
   }
 
+  .animate-slide-in-bottom-mug {
+    animation: slide-in-bottom-mug 4s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 2s;
+  }
+  @keyframes slide-in-bottom-mug {
+    0% {
+      transform: translateY(130px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   .animate-slide-in-bottom-ball {
     animation: slide-in-bottom-ball 4s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 1.4s;
   }
   @keyframes slide-in-bottom-ball {
     0% {
