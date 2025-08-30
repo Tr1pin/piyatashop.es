@@ -4,11 +4,11 @@
 
 @layer utilities {
   .animate-slide-in-bottom-shirt {
-    animation: slide-in-bottom-shirt 3s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation: slide-in-bottom-shirt 2s cubic-bezier(0.25, 1, 0.5, 1) both;
   }
   @keyframes slide-in-bottom-shirt {
     0% {
-      transform: translateY(130px);
+      transform: translateY(140px);
       opacity: 0;
     }
     100% {
@@ -18,8 +18,8 @@
   }
 
   .animate-slide-in-bottom-bag {
-    animation: slide-in-bottom-bag 4s cubic-bezier(0.25, 1, 0.5, 1) both;
-    animation-delay: 0.8s;
+    animation: slide-in-bottom-bag 2s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 0.7s;
   }
   @keyframes slide-in-bottom-bag {
     0% {
@@ -33,8 +33,8 @@
   }
 
   .animate-slide-in-bottom-mug {
-    animation: slide-in-bottom-mug 4s cubic-bezier(0.25, 1, 0.5, 1) both;
-    animation-delay: 2s;
+    animation: slide-in-bottom-mug 2s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 3.4s;
   }
   @keyframes slide-in-bottom-mug {
     0% {
@@ -48,8 +48,53 @@
   }
 
   .animate-slide-in-bottom-ball {
-    animation: slide-in-bottom-ball 4s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation: slide-in-bottom-ball 2s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 2.7s;
+  }
+  @keyframes slide-in-bottom-ball {
+    0% {
+      transform: translateY(130px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-in-bottom-ballBeige {
+    animation: slide-in-bottom-ball 2.3s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 3s;
+  }
+  @keyframes slide-in-bottom-ball {
+    0% {
+      transform: translateY(130px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-in-bottom-belt {
+    animation: slide-in-bottom-ball 2s cubic-bezier(0.25, 1, 0.5, 1) both;
     animation-delay: 1.4s;
+  }
+  @keyframes slide-in-bottom-ball {
+    0% {
+      transform: translateY(130px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-in-bottom-harness {
+    animation: slide-in-bottom-ball 2s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 2.1s;
   }
   @keyframes slide-in-bottom-ball {
     0% {
