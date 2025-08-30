@@ -22,12 +22,12 @@ const isMenuItemActive = (url: string) => {
 
 <!-- Sidebar -->
 <aside class="fixed top-0 left-0 h-full w-74 font-extralight bg-[#ffe9c7] text-2xl shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform z-50" aria-label="Menú lateral">
-  <nav class="p-6 flex flex-col space-y-4 h-full" role="navigation">
+  <nav class="p-6 flex flex-col space-y-4 h-dvh bg-[#ffe9c7] border-r border-[rgba(210,180,140,0.3)] pb-2 shadow-[0_4px_4px_-3px_rgba(0,0,0,0.1),0_0px_0px_-0px_rgba(0,0,0,0.05)]" role="navigation">
     <!-- Botón X -->
     <label for="sidebar-toggle" class="absolute top-[34px] right-3 cursor-pointer text-black hover:text-gray-700 text-4xl" aria-label="Cerrar menú lateral">
       &times;
     </label>
-    <div class="flex items-center gap-1 mb-4 border-b border-gray-900 pb-2">
+   <div class="flex items-center gap-1 mb-4 border-b border-[rgba(210,180,140,0.3)] pb-2 shadow-[0_4px_4px_-3px_rgba(0,0,0,0.1),0_0px_0px_-0px_rgba(0,0,0,0.05)]">
       <Logo href="/" />
       <a href="/" class="text-xl text-teal-900 font-extrabold">PiyataShop</a>
     </div>
