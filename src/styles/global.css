@@ -34,7 +34,7 @@
 
   .animate-slide-in-bottom-mug {
     animation: slide-in-bottom-mug 2s cubic-bezier(0.25, 1, 0.5, 1) both;
-    animation-delay: 3.4s;
+    animation-delay: 3.5s;
   }
   @keyframes slide-in-bottom-mug {
     0% {
@@ -106,4 +106,16 @@
       opacity: 1;
     }
   }
+
+  .fade-in-delayed {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 4s; /* Espera 4 segundos antes de iniciar */
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
 }
