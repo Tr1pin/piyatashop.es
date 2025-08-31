@@ -33,17 +33,20 @@ const isMenuItemActive = (url: string) => {
     </div>
     <ul class="flex-1 flex flex-col gap-2" role="menu">
       {menu.main.map((menuItem) => (
-        <li role="none" class="text-shadow-gray-700 font-semibold w-full h-[35px]">
-          -
+        <li role="none" class="flex flex-row justify-around text-shadow-gray-700 font-semibold w-full h-[35px]">
           <a
             href={menuItem.url}
             role="menuitem"
             class:list={[
-              "w-[50px] h-[20px] my-2 text-lg text-green-950 font-bold mr-4 ml-1 rounded hover:text-shadow-gray-900 hover:text-xl transition-all",
+              "w-[180px] h-[20px] my-2 text-lg text-green-950 font-bold mr-4 ml-1 rounded hover:text-shadow-gray-900 hover:text-xl transition-all",
               isMenuItemActive(menuItem.url) && "text-shadow-gray-500 cursor-pointer",
             ]}
           >
+            <strong class="text-shadow-gray-700 font-semibold">-</strong> 
             {menuItem.name}
+          </a>
+          <a href={menuItem.url} class="hover:scale-105 transition-transform duration-300">
+            <img src={"/src/assets/svg/"+ menuItem.svg +".svg"} alt="Svg" class="w-6 h-6 inline" loading="lazy"/>
           </a>
         </li>
       ))}

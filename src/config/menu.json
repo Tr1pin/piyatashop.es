@@ -2,19 +2,23 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/",
+      "svg": "home"
     },
     {
       "name": "Contacto",
-      "url": "/contacto"
+      "url": "/contacto",
+      "svg": "contacto"
     },
     {
       "name": "Productos",
-      "url": "/productos"
+      "url": "/productos",
+      "svg": "productos"
     },
     {
       "name": "Sobre nosotros",
-      "url": "/about"
+      "url": "/about",
+      "svg": "about"
     }
     
   ],
