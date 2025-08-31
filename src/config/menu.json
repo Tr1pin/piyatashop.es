@@ -5,17 +5,18 @@
       "url": "/"
     },
     {
+      "name": "Contacto",
+      "url": "/contacto"
+    },
+    {
       "name": "Productos",
       "url": "/productos"
     },
     {
       "name": "Sobre nosotros",
       "url": "/about"
-    },
-    {
-      "name": "Contacto",
-      "url": "/Contacto"
     }
+    
   ],
 
   "footer": [
