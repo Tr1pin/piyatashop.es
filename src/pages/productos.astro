@@ -1,0 +1,25 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import ProductCard from '../components/ProductCard.astro';
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products');
+---
+
+
+<Layout title="Productos - PiyataShop">
+    <Header />
+    <section class="h-auto mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 class="text-3xl font-bold mb-6 text-center text-teal-900">Nuestros Productos</h1>
+        <div class="grid grid-cols-1 place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 mt-15">
+           {
+            products.map((product) => (
+                <ProductCard product={product} />
+            ))
+            }
+        </div>
+    </section>
+    <Footer />
+</Layout>
