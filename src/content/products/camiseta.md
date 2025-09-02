@@ -1,6 +1,6 @@
 ---
 title: Camisetas
-description: Camisetas personalizadas para todo el mundo
+description: Camisetas personalizadas
 price: 10.99
 images: [
     {

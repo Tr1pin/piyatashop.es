@@ -1,6 +1,6 @@
 ---
 title: Correas
-description: Correas personalizadas para todo el mundo
+description: Correas personalizadas
 price: 8.99
 images: [
     {

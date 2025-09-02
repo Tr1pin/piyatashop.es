@@ -15,23 +15,20 @@ const { product } = Astro.props;
 
 <a
   href={`/productos/${product.data.title}`}
-  class="h-[480px] w-[300px] flex flex-col justify-center border-[rgba(210,180,140,0.3)] bg-white/0 backdrop-blur-md shadow-xl rounded-xl hover:shadow-2xl transition-shadow duration-300"
+  class="h-[420px] w-[260px] flex flex-col justify-center border-[rgba(210,180,140,0.3)] bg-white/0 backdrop-blur-md shadow-xl rounded-xl hover:shadow-2xl transition-shadow duration-300"
 >
   <img
     src={product.data.images[0].url}
     alt={product.data.images[0].alt}
-    class="w-full h-72 object-cover rounded-t-lg"
+    class="w-full h-65 object-contain rounded-t-lg p-2"
     loading="lazy"
   />
   <div class="p-4">
-    <h2 class="text-xl font-semibold mb-2 text-teal-900">
+    <h2 class="text-xl font-semibold mb-2 text-teal-900 text-center">
       {product.data.title}
     </h2>
-    <p class="text-lg text-green-950 font-semibold mr-4 ml-1 rounded transition-all mb-4">
-      {product.data.description}
-    </p>
-    <span class="text-lg font-bold text-teal-900">
-      {product.data.price} €
+    <span class="block text-lg font-bold text-teal-900 text-center">
+      {product.data.price}€ -> (precio menor - precio mayor)
     </span>
   </div>
 </a>

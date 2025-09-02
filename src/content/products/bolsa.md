@@ -1,11 +1,11 @@
 ---
-title: Bolsa
-description: Bolsa personalizadas para todo el mundo
+title: Tote bag
+description: Tote bags personalizadas
 price: 5.99
 images: [
     {
         url: /bolsa.webp,
-        alt: Bolsa personalizada
+        alt: Tote bag personalizada
     }
 ]
 ---

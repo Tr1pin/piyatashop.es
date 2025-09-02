@@ -1,6 +1,6 @@
 ---
 title: Tazas
-description: Tazas personalizadas para todo el mundo
+description: Tazas personalizadas
 price: 7.99
 images: [
     {

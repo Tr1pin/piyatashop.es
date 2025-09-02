@@ -1,6 +1,6 @@
 ---
-title: LLaveros
-description: Llaveros personalizadas para todo el mundo
+title: Llaveros
+description: Llaveros personalizados
 price: 7.99
 images: [
     {

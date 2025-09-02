@@ -1,6 +1,6 @@
 ---
-title: Bolas de Navidad
-description: Bolas de Navidad personalizadas para todo el mundo
+title: Decoración navideña
+description: Bolas de Navidad personalizadas
 price: 10.99
 images: [
     {
