@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content'; 
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths (){
+    const products = await getCollection('products');
+    return products.map((product) => ({
+        params: { id: product.id, title: product.data.title },
+        props: { product },
+    }));
+}
+
+const { product } = Astro.props;
+const { data } = product;
+const { title, images } = data;
+---
+
+<Layout>
+    <Header />
+    <main class="flex flex-col items-center justify-start w-full min-h-dvh p-4 mt-16">
+        <h1 class="text-4xl text-teal-900 font-extrabold mb-2 w-[300px] text-center">{title}</h1>
+        <p class="font-bold text-xl text-center mt-4 w-[350px]">{data.description}</p>
+        <p class="font-bold text-xl text-center mt-4 w-[350px]">Precio: {data.price}€</p>
+        {
+            images && images.length > 0 ? (
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
+                    {images.map((image) => (
+                        <a href="/contacto">
+                            <img src={image.url} alt={image.alt ?? title} class="w-[300px] h-auto rounded-lg shadow-md" />
+                        </a>
+                    ))}
+                </div>
+            ) : (
+                <p class="font-bold text-xl text-center mt-4 w-[350px]">No hay imágenes disponibles.</p>
+            )
+        }
+        <a href="/contacto"
+	        class="text-2xl text-white font-bold tracking-wide bg-teal-900 mt-6 px-6 py-3 rounded-full hover:scale-105 transition-all hover:bg-teal-800 duration-300 cursor-pointer">
+		    Contáctanos
+	    </a>
+
+    </main>
+    <Footer />
+</Layout>
