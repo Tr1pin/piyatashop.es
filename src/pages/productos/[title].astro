@@ -23,19 +23,40 @@ const { title, images } = data;
         <h1 class="text-4xl text-teal-900 font-extrabold mb-2 w-[300px] text-center">{title}</h1>
         <p class="font-semibold text-xl text-center mt-4 w-[75%]">{data.description}</p>
         <p class="font-bold text-xl text-teal-900 text-center mt-4 w-[350px]">Precio: {data.price}€</p>
-        {
-            images && images.length > 0 ? (
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
-                    {images.map((image) => (
-                        <a href={`/producto/${image.alt}`}>
-                            <img src={image.url} alt={image.alt ?? title} class="w-[300px] h-auto rounded-lg shadow-md" />
-                        </a>
-                    ))}
-                </div>
-            ) : (
-                <p class="font-bold text-xl text-center mt-4 w-[350px]">No hay imágenes disponibles.</p>
-            )
-        }
+        {images && images.length > 0 ? (
+  <div
+    class={
+      images.length === 1
+        ? "flex justify-center mt-6"
+        : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6"
+    }
+  >
+    {
+    images.map((image, idx) => {
+      // Si es la última imagen y el número total es impar y hay más de 1 imagen
+      const isLastAndOdd = images.length > 1 && images.length % 2 === 1 && idx === images.length - 1;
+        return (
+            <div
+                class={
+                    isLastAndOdd
+                    ? "md:col-span-2 flex justify-center"
+                    : ""
+                }
+                >
+                <a href={`/producto/${image.alt}`}>
+                    <img
+                    src={image.url}
+                    alt={image.alt ?? title}
+                    class="w-[300px] h-auto rounded-lg shadow-md"
+                    />
+                </a>
+            </div>
+            );
+        })}
+    </div>
+    ) : (
+        <p class="font-bold text-xl text-center mt-4 w-[350px]">No hay imágenes disponibles.</p>
+    )}
         <a href="/contacto"
 	        class="text-2xl text-white font-bold tracking-wide bg-teal-900 mt-6 mb-10 px-6 py-3 rounded-full hover:scale-105 transition-all hover:bg-teal-800 duration-300 cursor-pointer">
 		    Contáctanos
