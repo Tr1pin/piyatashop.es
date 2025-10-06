@@ -10,6 +10,10 @@ images: [
     {
         url: /Camisetas/camiseta.webp,
         alt: Camiseta personalizada
+    },
+    {
+        url: /Camisetas/camisetaBrigada.webp,
+        alt: Camiseta negra diseño plateado
     }
 ]
 ---

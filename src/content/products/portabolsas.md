@@ -3,7 +3,7 @@ genericImage: {
  url: /Portabolsas.png,
  alt: Portabolsas personalizable
 }
-title: Portabolsas para perros
+title: Portabolsas
 description: Los productos mostrados son ejemplos de los trabajos que hemos realizado anteriormente, si desea hacer alguna modificación como en el color de la tela, debes indicarlo a la hora de hacer el pedido.
 price: 7.99
 images: [
