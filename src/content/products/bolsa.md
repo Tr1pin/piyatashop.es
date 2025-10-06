@@ -17,7 +17,7 @@ images: [
     },
     {
         url: /ToteBags/totebagILMDconNombre.webp,
-        alt: Tote bag con dibujo de perro y nombre,
+        alt: Tote bag I love my dog y nombre,
     },
     {
         url: /ToteBags/totebagNegraNombreEInicial.webp,
@@ -25,7 +25,7 @@ images: [
     },
     {
         url: /ToteBags/totebagTurquesaBugsBunny.webp,
-        alt: Tote bag con dibujo de bugs Bunny x Nike,
+        alt: Tote bag con dibujo personalizable,
     },
     {
         url: /ToteBags/totebagTurquesaDibujoYFrase.webp,
@@ -33,7 +33,7 @@ images: [
     },
     {
         url: /ToteBags/totebagTurquesaPipo.webp,
-        alt: Tote bag con dibujo de perro y nombre,
+        alt: Tote bag turquesa con dibujo de perro y nombre,
     },
 ]
 ---

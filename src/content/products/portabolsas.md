@@ -1,6 +1,6 @@
 ---
 genericImage: {
- url: /Portabolsas.webp,
+ url: /Portabolsas.png,
  alt: Portabolsas personalizable
 }
 title: Portabolsas para perros

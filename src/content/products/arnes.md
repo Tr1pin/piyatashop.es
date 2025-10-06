@@ -13,7 +13,7 @@ images: [
     },
     {
         url: /ProductosPerros/arnesCaballitosDeMar.webp,
-        alt: Arnes estampado  caballitos de mar
+        alt: Arnes estampado caballitos de mar
     },
     {
         url: /ProductosPerros/arnesEstampadoPerro.webp,
