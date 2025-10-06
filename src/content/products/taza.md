@@ -8,7 +8,7 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 11.99
 images: [
     {
-        url: /taza.webp,
+        url: /Tazas/taza.webp,
         alt: Taza personalizada
     }
 ]

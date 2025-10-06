@@ -9,7 +9,7 @@ price: 4.99
 images: [
 
     {
-        url: /LlaveroNombre.jpg,
+        url: /Llaveros/LlaveroNombre.webp,
         alt: LLavero personalizado
     }
 ]

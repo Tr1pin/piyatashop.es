@@ -8,7 +8,7 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 8.99
 images: [
     {
-        url: /correa.webp,
+        url: /Correas/correa.webp,
         alt: Correa personalizada
     }
 ]

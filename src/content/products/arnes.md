@@ -8,15 +8,15 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 19.99
 images: [
     {
-        url: /arnesAnimalPrint.jpg,
+        url: /ProductosPerros/arnesAnimalPrint.webp,
         alt: Arnes estampado AnimalPrint
     },
     {
-        url: /arnesCaballitosDeMar.jpg,
+        url: /ProductosPerros/arnesCaballitosDeMar.webp,
         alt: Arnes estampado  caballitos de mar
     },
     {
-        url: /arnesEstampadoPerro.jpg,
+        url: /ProductosPerros/arnesEstampadoPerro.webp,
         alt: Arnes estampado buldog
     }
 ]

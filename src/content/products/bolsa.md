@@ -8,31 +8,31 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 11.99
 images: [
     {
-        url: /totebagDibujoPerroYNombre.jpg,
+        url: /ToteBags/totebagDibujoPerroYNombre.webp,
         alt: Tote bag con dibujo de perro y nombre,
     },
     {
-        url: /totebagNegraDibujoPerroYNombre.jpg,
+        url: /ToteBags/totebagNegraDibujoPerroYNombre.webp,
         alt: Tote bag negra con dibujo de perro y nombre,
     },
     {
-        url: /totebagILMDconNombre.jpg,
+        url: /ToteBags/totebagILMDconNombre.webp,
         alt: Tote bag con dibujo de perro y nombre,
     },
     {
-        url: /totebagNegraNombreEInicial.jpg,
+        url: /ToteBags/totebagNegraNombreEInicial.webp,
         alt: Tote bag con nombre e inicial lettering,
     },
     {
-        url: /totebagTurquesaBugsBunny.jpg,
+        url: /ToteBags/totebagTurquesaBugsBunny.webp,
         alt: Tote bag con dibujo de bugs Bunny x Nike,
     },
     {
-        url: /totebagTurquesaDibujoYFrase.jpg,
+        url: /ToteBags/totebagTurquesaDibujoYFrase.webp,
         alt: Tote bag con dibujo y frase,
     },
     {
-        url: /totebagTurquesaPipo.jpg,
+        url: /ToteBags/totebagTurquesaPipo.webp,
         alt: Tote bag con dibujo de perro y nombre,
     },
 ]

@@ -8,7 +8,7 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 14.99
 images: [
     {
-        url: /camiseta.webp,
+        url: /Camisetas/camiseta.webp,
         alt: Camiseta personalizada
     }
 ]
