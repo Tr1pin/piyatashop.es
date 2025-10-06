@@ -8,7 +8,7 @@ description: Los productos mostrados son ejemplos de los trabajos que hemos real
 price: 7.99
 images: [
     {
-        url: /DecoNavidad/bolaVerde.webp,
+        url: /DecoNavidad/bolaNavidad.webp,
         alt: Bola de navidad personalizada
     }
 ]
